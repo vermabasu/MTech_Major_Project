@@ -12,4 +12,4 @@ for better accuracy) pre-trained model for training. These models are trained on
 * The complete video is here:- shorturl.at/fnGV2
 
 
-<img src="inventory/train_results_yolov5l.png" width="500" height="300">
+<img src="inventory/train_results_yolov5l.png" width="800" height="300">
