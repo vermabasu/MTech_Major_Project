@@ -9,7 +9,7 @@ There are several methods to detect a driver’s drowsiness. The one discussed h
 
 For this project, I have used yolov5m (medium version for less space consumption and high speed but with little less accuracy) and yolov5l (large version of yolov5
 for better accuracy) pre-trained model for training. These models are trained on COCO128 dataset which have total 80 classes. I trained the above pre-trained model on new custom data-set containing 2 classes. With total of 1336 training images ( 636 images from open eye class and 700 from closed eye class) and 414 validation images ( 220 images from open eye class and 194 from closed eye class), the model shows good accuracy (98.2% for yolov5m and 98.6% for yolov5l) with 300 epochs and 16 batches. For running it is taking average of 0.08sec per frame. Below is the image for training accuracy,loss and the result.
-The complete video is here:- shorturl.at/fnGV2
+* The complete video is here:- shorturl.at/fnGV2
 
 
-<img src="inventory/train_result_yolov5l.png">
+<img src="inventory/train_results_yolov5l.png">
